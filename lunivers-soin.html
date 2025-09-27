@@ -5,28 +5,26 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<meta name="Content-Language" content="fr">
-		<title>Title | O&#x27;cil belle que douce | institut de beauté et spa</title>
-		<meta name="description" content="Description" />
+		<title>L'univers soin - Ocil Belle Que Douce | O&#x27;cil belle que douce | institut de beauté et spa</title>
+		<meta name="description" content="Découvrez l'univers soin de l'institut Ocil Belle Que Douce à Faveraye-Mâchelles près d'Angers (49). Soins du visage, du corps et rituels de bien-être pour votre beauté et relaxation." />
 		<link rel="canonical" href="https://ocilbellequedouce.fr">
 		<meta name="robots" content="index,follow">
 		<meta name="MobileOptimized" content="320">
 		<meta property="og:locale" content="fr_FR" />
 		<meta property="og:site_name" content="O&#x27;cil belle que douce | institut de beauté et spa">
 		<meta property="og:type" content="website">
-		<meta property="og:title" content="">
-		<meta property="og:description" content="">
-		<meta property="og:image" content="">
+		<meta property="og:title" content="L&#x27;univers soin - Ocil Belle Que Douce">
+		<meta property="og:description" content="Découvrez l&#x27;univers soin de l&#x27;institut Ocil Belle Que Douce à Faveraye-Mâchelles près d&#x27;Angers (49). Soins du visage, du corps et rituels de bien-être pour votre beauté et relaxation.">
+		<meta property="og:image" content="./src/img/open-graph/ocilbellequedouce.png">
 		<meta property="og:url" content="https://ocilbellequedouce.fr">
-		<meta property="twitter:image" content="">
+		<meta property="twitter:image" content="./src/img/open-graph/ocilbellequedouce.png">
 		<meta property="twitter:card" content="summary_large_image">
-		<link rel="apple-touch-icon" sizes="180x180" href="">
-		<link rel="icon" type="image/png" sizes="32x32" href="">
-		<link rel="icon" type="image/png" sizes="16x16" href="">
-		<link rel="manifest" href="">
-		<meta name="msapplication-TileColor" content="">
-		<meta name="theme-color" content="">
-		
-		
+		<link rel="icon" type="image/png" href="./img/favicon-96x96.png" sizes="96x96" />
+		<link rel="icon" type="image/svg+xml" href="./img/favicon.svg" />
+		<link rel="shortcut icon" href="./assets/favicon.ico" />
+		<link rel="apple-touch-icon" sizes="180x180" href="./img/apple-touch-icon.png" />
+		<meta name="apple-mobile-web-app-title" content="Ocilbelle" />
+		<link rel="manifest" href="./assets/site.webmanifest" />
 		<!-- Fonts -->
 		<!-- Css -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -82,10 +80,10 @@
 										<a href="./index">L’institut</a>
 									</li>
 									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
-										<a href="./lunivers-soin">L’univers soin</a>
+										<a href="./lunivers-soin">L’univers soins</a>
 										<ul class="sub-menu">
 											<li class="menu-item menu-item-type-custom menu-item-object-custom">
-												<a href="./lunivers-soin">Soins rapides</a>
+												<a href="./lunivers-soin#soins-expresse">Soins rapides</a>
 											</li>
 											<li class="menu-item menu-item-type-custom menu-item-object-custom">
 												<a href="./lunivers-soin#soins-du-monde">Soins du monde</a>
@@ -94,7 +92,10 @@
 												<a href="./lunivers-soin#soins-du-visage">Soins du visage</a>
 											</li>
 											<li class="menu-item menu-item-type-custom menu-item-object-custom">
-												<a href="./lunivers-soin#epilations">Epilations</a>
+												<a href="./lunivers-soin#soins-regards">Soins regards</a>
+											</li>
+											<li class="menu-item menu-item-type-custom menu-item-object-custom">
+												<a href="./lunivers-soin#soins-mains-et-pieds">Soins mains et pieds</a>
 											</li>
 										</ul>
 									</li>
@@ -102,10 +103,16 @@
 										<a href="./lunivers-beaute">L’univers beauté</a>
 										<ul class="sub-menu">
 											<li class="menu-item menu-item-type-custom menu-item-object-custom">
-												<a href="./lunivers-beaute">L’univers beauté des ongles</a>
+												<a href="./lunivers-beaute#umi">L’univers minceur</a>
 											</li>
 											<li class="menu-item menu-item-type-custom menu-item-object-custom">
-												<a href="./lunivers-beaute#umi">L’univers minceur</a>
+												<a href="./lunivers-beaute#decouverte">Séances découverte</a>
+											</li>
+											<li class="menu-item menu-item-type-custom menu-item-object-custom">
+												<a href="./lunivers-beaute#sel">Enveloppements au sel marin</a>
+											</li>
+											<li class="menu-item menu-item-type-custom menu-item-object-custom">
+												<a href="./lunivers-beaute#epilations">Epilations</a>
 											</li>
 										</ul>
 									</li>
@@ -118,11 +125,11 @@
 								</nav><!-- #site-navigation -->
 							</div><!-- #site-navigation-wrap -->
 							<div class="oceanwp-mobile-menu-icon clr mobile-right">
-								<a href="/#mobile-menu-toggle" class="mobile-menu" aria-label="Menu mobile">
+								<button class="mobile-menu-toggle" aria-label="Menu mobile">
 									<i class="fa fa-bars" aria-hidden="true"></i>
-									<span class="oceanwp-text">Menu</span>
-									<span class="oceanwp-close-text">Fermer</span>
-								</a>
+									<span class="open">Menu</span>
+									<span class="close">Fermer</span>
+								</button>
 							</div><!-- #oceanwp-mobile-menu-navbar -->
 						</div>
 					</div>
@@ -138,10 +145,10 @@
 									<a href="./index">L’institut</a>
 								</li>
 								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
-									<a href="./lunivers-soin">L’univers soin</a>
+									<a href="./lunivers-soin">L’univers soins</a>
 										<ul class="sub-menu">
 												<li class="menu-item menu-item-type-custom menu-item-object-custom">
-													<a href="./lunivers-soin">Soins rapides</a>
+													<a href="./lunivers-soin#soins-expresse">Soins rapides</a>
 												</li>
 												<li class="menu-item menu-item-type-custom menu-item-object-custom">
 													<a href="./lunivers-soin#soins-du-monde">Soins du monde</a>
@@ -150,7 +157,10 @@
 													<a href="./lunivers-soin#soins-du-visage">Soins du visage</a>
 												</li>
 												<li class="menu-item menu-item-type-custom menu-item-object-custom">
-													<a href="./lunivers-soin#epilations">Epilations</a>
+													<a href="./lunivers-soin#soins-regards">Soins regards</a>
+												</li>
+												<li class="menu-item menu-item-type-custom menu-item-object-custom">
+													<a href="./lunivers-soin#soins-mains-et-pieds">Soins mains et pieds</a>
 												</li>
 										</ul>
 								</li>
@@ -158,10 +168,16 @@
 									<a href="./lunivers-beaute">L’univers beauté</a>
 										<ul class="sub-menu">
 												<li class="menu-item menu-item-type-custom menu-item-object-custom">
-													<a href="./lunivers-beaute">L’univers beauté des ongles</a>
+													<a href="./lunivers-beaute#umi">L’univers minceur</a>
 												</li>
 												<li class="menu-item menu-item-type-custom menu-item-object-custom">
-													<a href="./lunivers-beaute#umi">L’univers minceur</a>
+													<a href="./lunivers-beaute#decouverte">Séances découverte</a>
+												</li>
+												<li class="menu-item menu-item-type-custom menu-item-object-custom">
+													<a href="./lunivers-beaute#sel">Enveloppements au sel marin</a>
+												</li>
+												<li class="menu-item menu-item-type-custom menu-item-object-custom">
+													<a href="./lunivers-beaute#epilations">Epilations</a>
 												</li>
 										</ul>
 								</li>
@@ -199,7 +215,7 @@
 					</span>
 				</div>
 				<hr class="spacing">
-				<section class="container col-2" id="soins-expresse">
+				<section class="container col-2 anchor" id="soins-expresse">
 					<div>
 						<img src="./img/soin-visage-spa-institut-faveraye-machelles.jpg" alt="">
 					</div>
@@ -232,7 +248,7 @@
 					</span>
 				</div>
 				<hr class="spacing">
-				<section class="container col-2 col--reverse" id="soins-du-monde">
+				<section class="container col-2 col--reverse anchor" id="soins-du-monde">
 					<div>
 						<img src="./img/soin-corps-institut-de-beaute-spa-ocilbellequedouce.fr_.jpg"
 							alt="">
@@ -267,7 +283,7 @@
 					</span>
 				</div>
 				<hr class="spacing">
-				<section class="container col-2 " id="soins-du-visage">
+				<section class="container col-2 anchor" id="soins-du-visage" >
 					<div>
 						<img src="./img/soin-visage-corps-spa-institut-ocilbellequedouce-faveraye-machelles.jpg" alt="">
 					</div>
@@ -304,69 +320,54 @@
 					</span>
 				</div>
 				<hr class="spacing">
-				<section class="container col-2 " id="epilations">
-		
+				<section class="container col-2 col--reverse anchor" id="soins-regards">
 					<div>
-						<h2>Epilations</h2>
-						<ul>
-							<li>
-								Le Soin Visage Coup D’éclat <span	 class="time">30 minutes</span> : <span class="price">30€</span>
-								<div class="details">Démaquillage, gommage, modelage relaxant et une pose de masque</div>
-							</li>
-							<li>
-								Le Modelage Relaxant <span class="time">30 minutes</span> : <span class="price">35€</span>
-								<div class="details">Soin détente absolue du visage et décolté</div>
-							</li>
-							<li>
-								Le Soin pureté Aquaderm’ <span class="time">45 minutes</span> : <span class="price">49€</span>
-								<div class="details">Soin en profondeur pour une peau pure et nettoyé et hydrater</div>
-							</li>
-							<li>
-								Le Soin Douceur <span class="time">60 minutes</span> : <span class="price">60€</span>
-								<div class="details">Soin complet, défatiguant pour un teint frais et lumineux</div>
-							</li>
-							<li>
-								Le Soin Balinais ou Japonais « kobido » <span class="time">60 minutes</span> : <span class="price">69€</span>
-								<div class="details">Soin rajeunissant, lifting naturel du visage qui allie manœuvre et soin anti-âge</div>
-							</li>
-						</ul>
-		
+						<img src="./img/maquillage-institut-de-beaute-spa-faveraye-machelles.jpg" alt="">
 					</div>
-					<div id="forfaits">
-						<h2>Forfaits</h2>
+					<div>
+						<h2>Soins Spécials regards</h2>
 						<ul>
 							<li>
-								½ jambes + maillot : <span class="price">25€</span>
+								Rehaussement de Cils: <span class="price">49€</span>
+								<div class="details">Cils recourbés avec teinture</div>
 							</li>
 							<li>
-								½ jambes + aisselles : <span class="price">32€</span>
-							</li>
-							<li>
-								½ jambes + maillot intégral : <span class="price">35€</span>
-							</li>
-							<li>
-								Jambes entières + maillot : <span class="price">37€</span>
-							</li>
-							<li>
-								Jambes entières + aisselles + maillot : <span class="price">42€</span>
-							</li>
-							<li>
-								Jambes entières + aisselles + maillot intégral : <span class="price">52€</span>
-							</li>
-		
-						</ul>
-						<h2>Hommes</h2>
-						<ul>
-							<li>
-								Torse ou dos : <span class="price">29€</span>
+								Teinture cils ou sourcils: <span class="price">12€</span>
 							</li>
 						</ul>
-		
 					</div>
-		
 				</section>
 				<hr class="spacing">
+				<div class="elementor-divider">
+					<span class="elementor-divider-separator">
+					</span>
+				</div>
 				<hr class="spacing">
+						<section class="container col-2 anchor" id="soins-mains-et-pieds">
+					<div>
+						<img src="./img/beaute-onglerie-estheticienne-faveraye-machelles-ogv7x4j9pvve6pwd3beghu0f0rdrifb7jw1z766re4.jpg" alt="">
+					</div>
+					<div>
+						<h2>Les Soins Des Mains et Pieds</h2>
+						<ul>
+							<li>
+								Manucure <span class="time">30 minutes</span> : <span class="price">30€</span>
+								<div class="details">Repousse des cuticile, limage, modelage des mains, pose de vernis classique</div>
+							</li>
+							<li>
+								Soin Douceur des Pied <span class="time">30 minutes</span> : <span class="price">40€</span>
+								<div class="details">Soin anti-callosités, retrouvé la douceur de pieds de bébé</div>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<hr class="spacing">
+				<div class="elementor-divider">
+					<span class="elementor-divider-separator">
+					</span>
+				</div>
+				<hr class="spacing">
+		
 			</div>
 		
 		
